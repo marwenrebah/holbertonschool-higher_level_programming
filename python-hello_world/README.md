@@ -1,5 +1,6 @@
 ![Python](https://raw.githubusercontent.com/nitin21897/Hello-World/master/nitin.png)
 # Welcome to the Python World 🐍
+```
 You've entered the exciting world of Python!
 
 As you explore the Python language (and most higher-level languages), you'll discover that there are often multiple ways to accomplish the same task. Some tasks may have one standard implementation, while others offer a variety of approaches.
@@ -9,6 +10,7 @@ Python comes with a linter and style guide called PEP8, which is now known as Py
 **Author's Disclaimer:** Enjoy your Python journey!
 
 - Guillaume
+```
 
 ## Resources
 Read or watch the following resources to enhance your Python knowledge:
