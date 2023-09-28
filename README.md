@@ -1,4 +1,4 @@
-![Python](https://raw.githubusercontent.com/nitin21897/Hello-World/master/nitin.png)
+![Python](https://media.licdn.com/dms/image/D5612AQHyM_pEvNsJyQ/article-cover_image-shrink_600_2000/0/1669055868330?e=2147483647&v=beta&t=8kWfhPJtrA0e6ivxDti8afRR01nHa1hMrXnJJKyex6U)
 # Welcome to the Python World 🐍
 
 You've entered the exciting world of Python!
