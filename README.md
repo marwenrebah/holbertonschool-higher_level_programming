@@ -20,6 +20,13 @@ Read or watch the following resources to enhance your Python knowledge:
 - [An Informal Introduction to Python (Read up until “3.1.2. Strings” included)](https://docs.python.org/3/tutorial/introduction.html): Get an informal introduction to Python up to the section on strings.
 - [How To Use String Formatters in Python 3](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python): A guide on how to use string formatters in Python 3.
 - [Pycodestyle – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/): The official Python style guide, also known as PEP 8. It's a valuable resource for writing clean and readable Python code.
+
+## License 👥
+Authors :
+🚀 Marwen Rebah<br>
+📧 Email: 6863@holbertonstudents.com<br>
+👻 Github: [https://github.com/marwenrebah](https://github.com/marwenrebah)<br>
+
 ## Languages and Tools :toolbox: 
 
 <p align="center">
@@ -27,9 +34,3 @@ Read or watch the following resources to enhance your Python knowledge:
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" alt="c" width="40" height="40"/> 
 </a>
 </p>
-
-## License 👥
-Authors :
-🚀 Marwen Rebah<br>
-📧 Email: 6863@holbertonstudents.com<br>
-👻 Github: [https://github.com/marwenrebah](https://github.com/marwenrebah)<br>
