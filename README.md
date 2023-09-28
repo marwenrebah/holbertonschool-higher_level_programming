@@ -32,20 +32,16 @@ Read or watch the following resources to enhance your Python knowledge:
   - Embrace the official Python style guide, PEP 8, and write clean and readable Python code.
 
 
-## 👥 License & Authors
-
-In the realm of creation, these masterminds forged the path:
-
+## License 👥
+Authors :
 - 🚀 **Marwen Rebah**
   - 📧 Email: 6863@holbertonstudents.com
-  - 👻 [GitHub](https://github.com/marwenrebah)
+  - 👻 Github: [https://github.com/marwenrebah](https://github.com/marwenrebah)
 
-## :toolbox: Languages and Tools
-
-In our enchanted arsenal, we wield:
+## Languages and Tools :toolbox: 
 
 <p align="center">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" alt="Python" width="40" height="40"/> 
-  </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" alt="c" width="40" height="40"/> 
+</a>
 </p>
