@@ -5,17 +5,14 @@
         h1 {
             color: #377DFF;
         }
-
         p {
             font-style: italic;
             color: #777;
         }
-
         ul {
             list-style-type: none;
             padding-left: 0;
         }
-
         li::before {
             content: "\2022"; /* Use a bullet point as the list item marker */
             color: #377DFF; /* Color the bullet point */
