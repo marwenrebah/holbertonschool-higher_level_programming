@@ -14,12 +14,24 @@ Enjoy your Python journey!
 ## Resources 🗄️
 Read or watch the following resources to enhance your Python knowledge:
 
-- [Learn to Program](https://docs.python.org/3/tutorial/index.html): Official Python tutorial. Ideal for beginners to programming.
-- [Whetting Your Appetite](https://docs.python.org/3/): Python's official documentation.
-- [Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html): Learn how to use the Python interpreter effectively.
-- [An Informal Introduction to Python (Read up until “3.1.2. Strings” included)](https://docs.python.org/3/tutorial/introduction.html): Get an informal introduction to Python up to the section on strings.
-- [How To Use String Formatters in Python 3](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python): A guide on how to use string formatters in Python 3.
-- [Pycodestyle – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/): The official Python style guide, also known as PEP 8. It's a valuable resource for writing clean and readable Python code.
+- [**Learn to Program**](https://docs.python.org/3/tutorial/index.html) 📘
+  - Official Python tutorial, perfect for beginners entering the world of programming.
+
+- [**Whetting Your Appetite**](https://docs.python.org/3/) 🧠
+  - Explore Python's official documentation to ignite your curiosity.
+
+- [**Using the Python Interpreter**](https://docs.python.org/3/tutorial/interpreter.html) 💻
+  - Master the art of using the Python interpreter effectively.
+
+- [**An Informal Introduction to Python (Read up until “3.1.2. Strings” included)**](https://docs.python.org/3/tutorial/introduction.html) 🎉
+  - Get an informal introduction to Python, including strings, and kickstart your Python journey.
+
+- [**How To Use String Formatters in Python 3**](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python) ✨
+  - Dive into the world of Python 3 string formatters with this comprehensive guide.
+
+- [**Pycodestyle – Style Guide for Python Code**](https://www.python.org/dev/peps/pep-0008/) 📝
+  - Embrace the official Python style guide, PEP 8, and write clean and readable Python code.
+
 
 ## License 👥
 Authors :
