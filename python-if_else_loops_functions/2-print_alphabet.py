@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for letter in 'abcdefghijklmnopqrstuvwxyz':
-    print(letter, end="")
-
+for a in range(ord('a'), ord('z') + 1):
+    print("{:s}".format(chr(a)), end="")
