@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 for a in range(ord('a'), ord('z') + 1):
-    letter = chr(a)
-    if letter not in ['q', 'e']:
-        print(letter, end="")
+    if chr(a) != 'q' and chr(a) != 'e':
+        print(chr(a), end="")
