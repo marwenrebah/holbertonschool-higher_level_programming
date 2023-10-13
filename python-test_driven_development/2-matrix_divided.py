@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-"""devide matrix"""
+"""Module for matrix_divided method"""
 
 
 def matrix_divided(matrix, div):
-    """Divides all elements of a matrix"""
+    """Divides all elements of a matrix.
+
+    """
+
     if not isinstance(matrix, list) or len(matrix) == 0 or not matrix[0]:
         raise TypeError("matrix must be a matrix (list of lists) " +
                         "of integers/floats")
