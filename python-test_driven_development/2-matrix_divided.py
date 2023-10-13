@@ -3,7 +3,6 @@
 
 
 def matrix_divided(matrix, div):
-
     """Divides all elements of a matrix"""
 
     if not isinstance(matrix, list) or len(matrix) == 0 or not matrix[0]:
