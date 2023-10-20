@@ -1,0 +1,56 @@
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+    >>> new_bg = BaseGeometry()
+    >>> type(new_bg)
+    <class '7-base_geometry.BaseGeometry'>
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bg.area()
+    Traceback (most recent call last):
+    Exception: area() is not implemented
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bg.integer_validator()
+    Traceback (most recent call last):
+    TypeError: BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+    >>> bg = BaseGeometry()
+    >>> new_bg.integer_validator("testing", 0)
+    Traceback (most recent call last):
+    ValueError: testing must be greater than 0
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bg.integer_validator(10, "testing")
+    Traceback (most recent call last):
+    ValueError: Unknown format code 's' for object of type 'int'
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bg.integer_validator(None)
+    Traceback (most recent call last):
+    TypeError: BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bg.integer_validator("invalid", "num")
+    Traceback (most recent call last):
+    TypeError: invalid must be an integer
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bgbg = BaseGeometry()
+    >>> new_bg.integer_validator("bool", True)
+    Traceback (most recent call last):
+    TypeError: bool must be an integer
+
+    >>> new_bg = BaseGeometry()
+    >>> bg.integer_validator("checkme", [3])
+    Traceback (most recent call last):
+    TypeError: checkme must be an integer
+
+    >>> new_bg = BaseGeometry()
+    >>> bg.integer_validator("checkme", {3, 4})
+    Traceback (most recent call last):
+    TypeError: checkme must be an integer
+
+    >>> new_bg = BaseGeometry()
+    >>> new_bg.integer_validator("checkme", (4,))
+    Traceback (most recent call last):
+    TypeError: checkme must be an integer
