@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Module with a Base class
+"""
+
 
 class Base:
     """ Class Base """
