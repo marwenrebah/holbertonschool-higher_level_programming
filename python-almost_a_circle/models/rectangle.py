@@ -5,6 +5,7 @@ inheritance of class Base
 """
 from models.base import Base
 
+
 class Rectangle(Base):
     """Class Rectangle"""
 
@@ -20,7 +21,7 @@ class Rectangle(Base):
     def width(self):
         """width getter"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         """width setter"""
@@ -29,12 +30,12 @@ class Rectangle(Base):
         if value <= 0:
             raise ValueError("width must be > 0")
         self.__width = value
-    
+
     @property
     def height(self):
         """ height getter"""
         return self.__height
-    
+
     @height.setter
     def width(self, value):
         """height setter"""
@@ -43,12 +44,12 @@ class Rectangle(Base):
         if value <= 0:
             raise ValueError("height must be > 0")
         self.__height = value
-    
+
     @property
     def x(self):
         """x getter"""
         return self.__x
-    
+
     @x.setter
     def x(self, value):
         """x setter"""
@@ -62,7 +63,7 @@ class Rectangle(Base):
     def y(self):
         """y getter"""
         return self.__y
-    
+
     @y.setter
     def y(self, value):
         """y setter"""
