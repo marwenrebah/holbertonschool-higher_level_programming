@@ -1,18 +1,15 @@
 #!/usr/bin/python3
 """Rectangle class"""
 
-# Import the Base class from the models.base module
 from models.base import Base
 
 
-# Define the Rectangle class, which inherits from the Base class
 class Rectangle(Base):
     """inherits of base class"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """instantiation"""
 
-        # Call the constructor of the Base class and set the id
         id = super().__init__(id)
         self.x = x
         self.y = y
@@ -128,7 +125,6 @@ class Rectangle(Base):
                     elif i == 'y':
                         self.__y = kwargs['y']
 
-    # Return a dictionary representation of the rectangle
     def to_dictionary(self):
         """returns the dictionary representation of a rectangle"""
         return {
