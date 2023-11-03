@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Module with a Rectangle class,
-inheritance of class Base
-"""
+"""Module for Rectangle class."""
 from models.base import Base
 
 
@@ -11,7 +8,7 @@ class Rectangle(Base):
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initializes instance"""
-        super().__init__(id)
+        id = super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
