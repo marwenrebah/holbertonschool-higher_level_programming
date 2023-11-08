@@ -2,7 +2,7 @@
 """
 Module with a Base class
 """
-from json import dumps
+from json import dumps, loads
 
 class Base:
     """Base class"""
