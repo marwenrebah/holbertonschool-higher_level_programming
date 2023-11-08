@@ -4,6 +4,7 @@ Module with a Base class
 """
 import json
 
+
 class Base:
     """Base class"""
     __nb_objects = 0
@@ -18,7 +19,7 @@ class Base:
 
     @staticmethod
     def to_json_string(list_dictionaries):
-        """Jsonifies a dictionary so it's quite rightly and longer."""
+        """returns the JSON string represntation of list"""
         if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
         else:
