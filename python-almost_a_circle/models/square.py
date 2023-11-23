@@ -1,31 +1,29 @@
 #!/usr/bin/python3
 """Write the class Square that inherits from Rectangle"""
-
 from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
-    """this is the square class"""
+    """This is the square class"""
 
     def __init__(self, size, x=0, y=0, id=None):
-        """use all attributes of Rectangle"""
+        """Initialize a Square instance with size, x, y, and id"""
+        # Use all attributes of Rectangle
         super().__init__(size, size, x, y, id)
 
-    # Return a string representation of the object
     def __str__(self):
-        """[Square] (<id>) <x>/<y> - <size>"""
+        """Return a string representation of the Square"""
         return "[Square] ({}) {}/{} - {}".format(
             self.id, self.x, self.y, self.width)
 
-    # Getter and setter methods for the 'size' property
     @property
     def size(self):
-        """retrieve the value of size"""
+        """Retrieve the value of the size property"""
         return self.width
 
     @size.setter
     def size(self, size):
-        """assign size to width and height"""
+        """Set the size property and update width and height accordingly"""
         if not isinstance(size, int):
             raise TypeError("width must be an integer")
         elif size <= 0:
@@ -34,17 +32,16 @@ class Square(Rectangle):
             self.width = size
         self.height = size
 
-    # Update the attributes of the square using either args or kwargs
     def update(self, *args, **kwargs):
-        """assign argument to each attribute"""
+        """Update attributes based on arguments or keyword arguments"""
         if len(args) != 0:
             if len(args) >= 1:
                 self.id = args[0]
-            elif len(args) >= 2:
+            if len(args) >= 2:
                 self.size = args[1]
-            elif len(args) >= 3:
+            if len(args) >= 3:
                 self.x = args[2]
-            elif len(args) >= 4:
+            if len(args) >= 4:
                 self.y = args[3]
         else:
             for k, v in kwargs.items():
@@ -58,9 +55,5 @@ class Square(Rectangle):
                     self.y = v
 
     def to_dictionary(self):
-        """return the dictionary representation of a Square"""
-        return {
-            'id': self.id,
-            'x': self.x,
-            'size': self.size,
-            'y': self.y}
+        """Return the dictionary representation of a Square"""
+        return {"id": self.id, "x": self.x, "size": self.size, "y": self.y}
