@@ -1,31 +1,23 @@
 #!/usr/bin/python3
-"""list from databases"""
-import MySQLdb
 import sys
+import MySQLdb
 
-if __name__ == "__main__":
-    """
-    connects MySQL server and lists all states from the database hbtn_0e_0_usa
-    """
+"""A script that lists all states from the database hbtn_0e_0_usa Username, password and database names"""
+if __name__ == '__main__':
+    db = MySQLdb.connect(user=sys.argv[1],
+                         passwd=sys.argv[2],
+                         db=sys.argv[3],
+                         host='localhost',
+                         port=3306)
 
-    username, password, database = sys.argv[1:4]
+    cursor = db.cursor()
 
-    """connect to my database"""
-    db = MySQLdb.connect(
-        host='localhost',
-        user=username,
-        passwd=password,
-        db=database,
-        port=3306)
+    cursor.execute("SELECT * FROM states ORDER BY id ASC")
 
-    """Create a cursor object"""
-    cur = db.cursor()
+    data = cursor.fetchall()
 
-    """exeute SQL Query"""
-    cur.execute("SELECT * FROM states ORDER By id")
+    for row in data:
+        print(row)
 
-    """fetch Query results"""
-    results = cur.fetchall()
-
-    for result in results:
-        print(result)
+    cursor.close()
+    db.close()
