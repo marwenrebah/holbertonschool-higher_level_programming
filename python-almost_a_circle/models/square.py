@@ -4,26 +4,25 @@ from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
-    """This is the square class"""
+    """this is the square class"""
 
     def __init__(self, size, x=0, y=0, id=None):
-        """Initialize a Square instance with size, x, y, and id"""
-        # Use all attributes of Rectangle
+        """use all attributes of Rectangle"""
         super().__init__(size, size, x, y, id)
 
     def __str__(self):
-        """Return a string representation of the Square"""
+        """[Square] (<id>) <x>/<y> - <size>"""
         return "[Square] ({}) {}/{} - {}".format(
             self.id, self.x, self.y, self.width)
 
     @property
     def size(self):
-        """Retrieve the value of the size property"""
+        """retrieve  the value of size"""
         return self.width
 
     @size.setter
     def size(self, size):
-        """Set the size property and update width and height accordingly"""
+        """assign size to width and height"""
         if not isinstance(size, int):
             raise TypeError("width must be an integer")
         elif size <= 0:
@@ -33,7 +32,7 @@ class Square(Rectangle):
         self.height = size
 
     def update(self, *args, **kwargs):
-        """Update attributes based on arguments or keyword arguments"""
+        """assign argument to each attribute"""
         if len(args) != 0:
             if len(args) >= 1:
                 self.id = args[0]
@@ -55,5 +54,5 @@ class Square(Rectangle):
                     self.y = v
 
     def to_dictionary(self):
-        """Return the dictionary representation of a Square"""
+        """return the dictionary representation of a Square"""
         return {"id": self.id, "x": self.x, "size": self.size, "y": self.y}
