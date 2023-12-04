@@ -5,7 +5,7 @@ import sys
 
 if __name__ == "__main__":
     """
-    connects to MySQL server and lists all states from the database hbtn_0e_0_usa
+    connects MySQL server and lists all states from the database hbtn_0e_0_usa
     """
 
     username, password, database = sys.argv[1:4]
